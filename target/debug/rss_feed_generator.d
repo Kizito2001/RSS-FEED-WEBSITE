@@ -1,0 +1,1 @@
+/workspace/RSS-FEED-WEBSITE/rss_feed_generator/target/debug/rss_feed_generator: /workspace/RSS-FEED-WEBSITE/rss_feed_generator/src/main.rs /workspace/RSS-FEED-WEBSITE/rss_feed_generator/templates/index.html

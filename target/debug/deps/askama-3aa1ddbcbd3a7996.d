@@ -1,0 +1,10 @@
+/workspace/RSS-FEED-WEBSITE/rss_feed_generator/target/debug/deps/libaskama-3aa1ddbcbd3a7996.rmeta: /workspace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/lib.rs /workspace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/error.rs /workspace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/filters/mod.rs /workspace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/helpers.rs
+
+/workspace/RSS-FEED-WEBSITE/rss_feed_generator/target/debug/deps/libaskama-3aa1ddbcbd3a7996.rlib: /workspace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/lib.rs /workspace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/error.rs /workspace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/filters/mod.rs /workspace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/helpers.rs
+
+/workspace/RSS-FEED-WEBSITE/rss_feed_generator/target/debug/deps/askama-3aa1ddbcbd3a7996.d: /workspace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/lib.rs /workspace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/error.rs /workspace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/filters/mod.rs /workspace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/helpers.rs
+
+/workspace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/lib.rs:
+/workspace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/error.rs:
+/workspace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/filters/mod.rs:
+/workspace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/askama-0.12.1/src/helpers.rs:

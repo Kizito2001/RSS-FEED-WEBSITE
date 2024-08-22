@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Rust RSS Feed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #1c1c1c; /* Dark grey background for content */
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            border-radius: 8px; /* Rounded corners */
+        }
+        h1 {
+            text-align: center;
+            color: #fff; /* White heading text */
+        }
+        .category {
+            margin-bottom: 40px;
+        }
+        .category h2 {
+            text-align: center;
+            color: #1e90ff; /* Bright blue for category headings */
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .image-gallery .image-item {
+            margin: 10px;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative; /* For caption positioning */
+        }
+        .image-gallery .image-item img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border: 2px solid #333; /* Dark border */
+            border-radius: 8px;
+        }
+        .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Rust RSS Feed</h1>
+
+        <div class="category">
+            <h2>Entertainment</h2>
+            <div class="image-gallery">
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/564x/88/bb/a6/88bba6902fbc6f905cd502b41d6f4b1d.jpg" alt="Entertainment Image 1">
+                    <div class="caption">A moment of pure joy from the latest blockbuster.</div>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/564x/56/f0/8b/56f08bb60d2dd335c2187fd14525bd6e.jpg" alt="Entertainment Image 2">
+                    <div class="caption">Stunning visuals from an epic concert.</div>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/564x/df/4c/1c/df4c1c09e924d89dd20b8cecab195127.jpg" alt="Entertainment Image 3">
+                    <div class="caption">A glimpse into the vibrant world of theater.</div>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/736x/aa/1f/ee/aa1fee1544bbe0c4b652a32fe7ee9b5b.jpg" alt="Entertainment Image 4">
+                    <div class="caption">An action-packed scene from the latest video game.</div>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/564x/52/6d/d4/526dd4ac615a46bdf9255710c6de4c84.jpg" alt="Entertainment Image 5">
+                    <div class="caption">Behind-the-scenes look at a film set.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Health</h2>
+            <div class="image-gallery">
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/736x/55/ed/b2/55edb275f6d8b5c85ae178f53be8dffb.jpg" alt="Health Image 1">
+                    <div class="caption">A refreshing yoga pose for mental peace.</div>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/564x/f8/6f/fc/f86ffc78a7f28befddd587f37d4bf8c1.jpg" alt="Health Image 2">
+                    <div class="caption">Healthy and vibrant fruits for a balanced diet.</div>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/564x/14/23/1e/14231e7f518a98fe3f8999ceb2f32cca.jpg" alt="Health Image 3">
+                    <div class="caption">A calming meditation spot for relaxation.</div>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/564x/35/d4/74/35d474753df6a5fa03db5fd5d47a0d48.jpg" alt="Health Image 4">
+                    <div class="caption">A nutritious meal that promotes well-being.</div>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/564x/1f/f8/1e/1ff81edcbec761c36e462a53c5d0a3ed.jpg" alt="Health Image 5">
+                    <div class="caption">Engaging in outdoor activities for a healthy lifestyle.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Education</h2>
+            <div class="image-gallery">
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/564x/ba/e9/4a/bae94ab9209c8f910359061eb0e10754.jpg" alt="Education Image 1">
+                    <div class="caption">Innovative classroom design for modern learning.</div>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/736x/04/15/fe/0415fe92ff0bc7a905d83ed6644ed3be.jpg" alt="Education Image 2">
+                    <div class="caption">Engaging student interaction in a collaborative setting.</div>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/564x/4a/52/80/4a52800239ab572da474d494965d285b.jpg" alt="Education Image 3">
+                    <div class="caption">A resourceful library that inspires learning.</div>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/564x/c8/11/e1/c811e16e296b7830943b90943a3d5c51.jpg" alt="Education Image 4">
+                    <div class="caption">Creative tools for a hands-on learning experience.</div>
+                </div>
+                <div class="image-item">
+                    <img src="https://i.pinimg.com/564x/52/e0/0a/52e00a0eb94112260cc4d3216a1ffbde.jpg" alt="Education Image 5">
+                    <div class="caption">Students engaging in interactive educational activities.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
