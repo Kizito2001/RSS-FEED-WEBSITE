@@ -1,3 +1,4 @@
+
 ---
 
 # Rust RSS Feed Generator
@@ -20,7 +21,9 @@ The **Rust RSS Feed Generator** is a web-based tool that allows users to generat
 
 ## Video Demo
 
-[Watch the demo video](#) to see the tool in action, showcasing its functionality and ease of use.
+[![Watch the demo video](https://img.youtube.com/vi/sbER5T6A5Ao/0.jpg)](https://youtu.be/sbER5T6A5Ao)
+
+Watch the [demo video](https://youtu.be/sbER5T6A5Ao) to see the tool in action, showcasing its functionality and ease of use.
 
 ## How to Build, Install, and Run
 
@@ -66,11 +69,7 @@ Ensure you have the following installed on your machine:
 - **View Categories**: The main page displays three categories: Entertainment, Health, and Education, each with a set of images and descriptive text.
 - **Explore Content**: Browse through images and associated descriptions for each category.
 
-### Customization
 
-To update or add more categories and images:
-1. Edit the `index.html` file to include new image URLs and descriptions.
-2. Modify the `main.rs` file if you need to adjust backend logic or add new features.
 
 
 ---
